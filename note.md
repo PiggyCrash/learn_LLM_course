@@ -1,0 +1,1 @@
+DL -> LSTM (Only remember backward/sequentially, ignoring whole data, in-reality : finding context can be anywhere/poor generalization) -> Transformer Model (Layer Becomes Block, Introducing Self Attention, creating relationship with whole data, mapped 1-by-1, creating better context/generalization) -> LLM (Pre-trained Transformer with Billion parameter)
